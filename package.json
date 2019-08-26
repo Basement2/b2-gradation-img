@@ -1,0 +1,44 @@
+{
+  "name": "@basement2/b2-gradation-img",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "es-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "tslint -p tsconfig.json -c tslint.json --fix",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Basement2/b2-gradation-img.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Basement2/b2-gradation-img/issues"
+  },
+  "homepage": "https://github.com/Basement2/b2-gradation-img#readme",
+  "devDependencies": {
+    "es-dev-server": "^1.12.0",
+    "husky": "^3.0.4",
+    "lint-staged": "^9.2.4",
+    "prettier": "^1.18.2",
+    "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "mediancut": "^1.0.9"
+  }
+}
