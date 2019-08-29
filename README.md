@@ -9,12 +9,14 @@ npm i @basement2/b2-gradation-img
 ```
 
 ## Usage
-<!--
+<!---
 ```
 <custom-element-demo height="400">
   <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="b2-gradation-img.html">
     <img src="https://picsum.photos/id/870/200/400" alt="">
-    <b2-gradation-img src="https://picsum.photos/id/870/200/400" colors="16"></b2-gradation-img>
+    <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
 ```
