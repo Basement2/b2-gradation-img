@@ -16,7 +16,7 @@ npm i @basement2/b2-gradation-img
 <custom-element-demo height="400">
   <template>
     <script src="https://unpkg.com/@webcomponents/webcomponentsjs@latest/webcomponents-loader.js"></script>
-    <script type="module" src="https://unpkg.com/browse/@basement2/b2-gradation-img@0.0.4/dist/index.js">
+    <script type="module" src="https://unpkg.com/browse/@basement2/b2-gradation-img@latest/dist/index.js">
     <img src="https://picsum.photos/id/870/200/400" alt="">
     <next-code-block></next-code-block>
   </template>
