@@ -4,8 +4,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+import { css, customElement, html, LitElement, property } from 'lit-element';
 import MedianCut from 'mediancut/dist/mediancut.module.js';
-import { LitElement, html, css, customElement, property } from 'lit-element';
 let MyElement = class MyElement extends LitElement {
     constructor() {
         super(...arguments);
@@ -17,17 +17,17 @@ let MyElement = class MyElement extends LitElement {
     }
     firstUpdated() {
         const image = new Image();
-        image.crossOrigin = "Anonymous";
+        image.crossOrigin = 'Anonymous';
         image.addEventListener('load', () => {
             const canvas = this.shadowRoot.querySelector('canvas');
             canvas.width = image.width;
             canvas.height = image.height;
             // Get context & ImageData
-            let ctx = canvas.getContext('2d');
+            const ctx = canvas.getContext('2d');
             ctx.drawImage(image, 0, 0);
-            let imagedata = ctx.getImageData(0, 0, canvas.width, canvas.height);
-            let medianCut = new MedianCut(imagedata);
-            let iData = medianCut.run(this.colors);
+            const imagedata = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            const medianCut = new MedianCut(imagedata);
+            const iData = medianCut.run(this.colors);
             ctx.putImageData(iData, 0, 0, 0, 0, canvas.width, canvas.height);
         });
         image.src = this.src;
