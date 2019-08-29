@@ -1,6 +1,8 @@
 # b2-gradation-img
 
-Reduce color
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@basement2/b2-gradation-img)
+
+Img with reduced color
 
 ## Installation
 
@@ -13,7 +15,7 @@ npm i @basement2/b2-gradation-img
 ```
 <custom-element-demo height="400">
   <template>
-    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@latest/webcomponents-loader.js"></script>
     <link rel="import" href="b2-gradation-img.html">
     <img src="https://picsum.photos/id/870/200/400" alt="">
     <next-code-block></next-code-block>
