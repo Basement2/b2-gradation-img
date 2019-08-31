@@ -1,7 +1,7 @@
 import { css, customElement, html, LitElement, property } from 'lit-element';
 import MedianCut from 'mediancut';
 
-@customElement('my-element')
+@customElement('b2-gradation-img')
 export class MyElement extends LitElement {
   static styles = css`
     :host {

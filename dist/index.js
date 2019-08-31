@@ -2547,7 +2547,7 @@ __decorate([
     property()
 ], MyElement.prototype, "src", void 0);
 MyElement = __decorate([
-    customElement('my-element')
+    customElement('b2-gradation-img')
 ], MyElement);
 
 export { MyElement };
