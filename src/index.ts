@@ -1,5 +1,5 @@
 import { css, customElement, html, LitElement, property } from 'lit-element';
-import MedianCut from 'mediancut/dist/mediancut.module.js';
+import MedianCut from 'mediancut';
 
 @customElement('my-element')
 export class MyElement extends LitElement {

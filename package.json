@@ -7,8 +7,8 @@
     "precommit": "lint-staged",
     "start": "es-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "watch": "tsc -w"
+    "build": "rollup -c",
+    "watch": "rollup -cw"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -32,13 +32,16 @@
     "husky": "^3.0.4",
     "lint-staged": "^9.2.4",
     "prettier": "^1.18.2",
+    "rollup": "^1.20.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.24.0",
     "tslint": "^5.19.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.2"
   },
   "dependencies": {
     "lit-element": "^2.2.1",
-    "mediancut": "^1.0.9"
+    "mediancut": "^1.0.10"
   }
 }
