@@ -1,6 +1,6 @@
 {
   "name": "@basement2/b2-gradation-img",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -20,7 +20,12 @@
     "type": "git",
     "url": "git+https://github.com/Basement2/b2-gradation-img.git"
   },
-  "keywords": ["webcomponents", "lit-element", "typescript", "mediancut"],
+  "keywords": [
+    "webcomponents",
+    "lit-element",
+    "typescript",
+    "mediancut"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
