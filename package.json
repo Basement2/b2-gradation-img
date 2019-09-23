@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/Basement2/b2-gradation-img.git"
   },
-  "keywords": [],
+  "keywords": ["webcomponents", "lit-element", "typescript", "mediancut"],
   "author": "",
   "license": "MIT",
   "bugs": {
