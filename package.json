@@ -49,6 +49,6 @@
   },
   "dependencies": {
     "lit-element": "^2.2.1",
-    "mediancut": "^1.0.10"
+    "mediancut": "^2.0.3"
   }
 }

@@ -31,7 +31,7 @@ export class MyElement extends LitElement {
       const imagedata = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
       const medianCut = new MedianCut(imagedata);
-      const iData = medianCut.run(this.colors);
+      const iData = medianCut.reduce(this.colors);
       ctx.putImageData(iData, 0, 0, 0, 0, canvas.width, canvas.height);
     });
     image.src = this.src;
