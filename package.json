@@ -1,6 +1,6 @@
 {
   "name": "@basement2/b2-gradation-img",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
